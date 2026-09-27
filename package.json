@@ -1,6 +1,6 @@
 {
   "name": "pastcode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for git history inspection, blame, diffs, and bisect-driven bug investigation for AI coding agents.",
   "type": "module",
   "bin": {
