@@ -44,13 +44,13 @@ Not published yet, or testing locally? Use the local path variant above instead.
 
 ## Available tools
 
-| Tool | What it does | Example prompt |
-| --- | --- | --- |
-| `get_file_at_commit` | Returns the contents of a file at a specific commit or ref. Useful when an AI agent wants to inspect older code without checking out the repo. | “Show me the version of src/auth.js from commit abc123 and compare it to the current file.” |
-| `list_commits_for_file` | Lists the recent history of a file using `git log --follow`, including commit hashes, authors, dates, and messages. | “Which commits touched src/api/users.ts, and when were they introduced?” |
-| `blame_line_range` | Shows who last changed a line range and which commit introduced it. Great for narrowing suspect edits. | “Who changed the validateEmail function and which commit owns this block?” |
-| `diff_between_commits` | Compares two refs, optionally scoped to a file, to show exactly what changed between them. | “What changed between release-1.2 and release-1.3 in src/checkout.ts?” |
-| `find_introducing_commit` | Runs a git bisect in a temporary worktree using a supplied test command to locate the first bad commit. | “When did the isValidEmail function start returning false for valid emails?” |
+| Tool                      | What it does                                                                                                                                   | Example prompt                                                                              |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `get_file_at_commit`      | Returns the contents of a file at a specific commit or ref. Useful when an AI agent wants to inspect older code without checking out the repo. | “Show me the version of src/auth.js from commit abc123 and compare it to the current file.” |
+| `list_commits_for_file`   | Lists the recent history of a file using `git log --follow`, including commit hashes, authors, dates, and messages.                            | “Which commits touched src/api/users.ts, and when were they introduced?”                    |
+| `blame_line_range`        | Shows who last changed a line range and which commit introduced it. Great for narrowing suspect edits.                                         | “Who changed the validateEmail function and which commit owns this block?”                  |
+| `diff_between_commits`    | Compares two refs, optionally scoped to a file, to show exactly what changed between them.                                                     | “What changed between release-1.2 and release-1.3 in src/checkout.ts?”                      |
+| `find_introducing_commit` | Runs a git bisect in a temporary worktree using a supplied test command to locate the first bad commit.                                        | “When did the isValidEmail function start returning false for valid emails?”                |
 
 ## How agents actually use this
 
