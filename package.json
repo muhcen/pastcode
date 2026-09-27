@@ -25,11 +25,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/pastcode.git"
+    "url": "git+https://github.com/muhcen/pastcode.git"
   },
-  "homepage": "https://github.com/USERNAME/pastcode",
+  "homepage": "https://github.com/muhcen/pastcode",
   "bugs": {
-    "url": "https://github.com/USERNAME/pastcode/issues"
+    "url": "https://github.com/muhcen/pastcode/issues"
   },
   "license": "MIT",
   "engines": {
