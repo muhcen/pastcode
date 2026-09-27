@@ -98,7 +98,7 @@ This project is intentionally small and dependency-light. The goal is to stay ea
 To work on it locally:
 
 ```bash
-git clone https://github.com/USERNAME/pastcode.git
+git clone https://github.com/muhcen/pastcode.git
 cd pastcode
 npm install
 ```
