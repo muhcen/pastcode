@@ -1,0 +1,41 @@
+{
+  "name": "pastcode",
+  "version": "0.1.0",
+  "description": "MCP server for git history inspection, blame, diffs, and bisect-driven bug investigation for AI coding agents.",
+  "type": "module",
+  "bin": {
+    "pastcode": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "git",
+    "git-history",
+    "git-blame",
+    "ai-agent",
+    "claude",
+    "debugging",
+    "bug-tracing",
+    "developer-tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/pastcode.git"
+  },
+  "homepage": "https://github.com/USERNAME/pastcode",
+  "bugs": {
+    "url": "https://github.com/USERNAME/pastcode/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0"
+  }
+}
